@@ -13,7 +13,7 @@ import java.util.Queue;
 public class AppInitializer {
     public static void main(String[] args) {
         //save
-        /*try{
+        try{
             Customer customer = new Customer(1002,"Namal Silva","Colombo",15000,"1988-12-21");
             if (saveCustomer(customer)){
                 System.out.println("Saved Successfully......!");
@@ -22,7 +22,7 @@ public class AppInitializer {
             }
         }catch (ClassNotFoundException | SQLException e){
             e.printStackTrace();
-        }*/
+        }
         //get by ID
         /*try{
             Customer customer = findById(1002);
@@ -35,7 +35,7 @@ public class AppInitializer {
             e.printStackTrace();
         }*/
         //get all
-        List<Customer> customers = findAll();
+        /*List<Customer> customers = findAll();
         if (!customers.isEmpty()){
             System.out.println("Success...");
             for (Customer c: customers){
@@ -43,7 +43,7 @@ public class AppInitializer {
             }
         }else{
             System.out.println("Customer Doesn't exists !");
-        }
+        }*/
         //update
         /*try{
             Customer customer = new Customer(1001,"Nimal Siripala","Kalutara",120000,"1988-12-21");

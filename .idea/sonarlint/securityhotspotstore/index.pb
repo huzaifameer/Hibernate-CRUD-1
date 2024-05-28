@@ -18,3 +18,5 @@ S
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 P
  src/main/java/HibernateUtil.java,0\e\0e9eb52914b47ef79d2e4b36053c40f0228cbbf6
+J
+src/main/java/Vehicle.java,d\e\de83edb5c38fc37905cce1343ee1e1d4c696d20f
