@@ -1,22 +1,39 @@
 
 ]
-java:S1220""Move this file to a named package.8­ù·ëû1J$4e8a84a6-3476-4873-b901-e2e32ae08479
+java:S1220""Move this file to a named package.8¡þ™íû1J$798c5a2f-96d0-4d61-9365-dfdb2fa650a1
 w
-java:S1191"5Use classes from the Java API instead of Sun classes.(°ÚŠ98¯ù·ëû1J$48585a2f-7bd8-49a2-839d-2a6bea5e40de
+java:S1191"5Use classes from the Java API instead of Sun classes.(°ÚŠ98£þ™íû1J$665b1da4-f961-4be8-af2c-f18ee52078a9
 —
-java:S2095-"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø›†Ÿúÿÿÿÿ8¾ù·ëû1J$1dd9a28b-38f4-46bd-8023-9e4a951fd21a
+java:S2095G"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø›†Ÿúÿÿÿÿ8¿þ™íû1J$de296b7f-87e5-4c94-a7cf-70b211a705e0
 —
-java:S2095""OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø›†Ÿúÿÿÿÿ8ÝÆçëû1J$6288fba1-24a7-4f68-8956-d3fa5bb550b6
-~	java:S125	"<This block of commented-out lines of code should be removed.(½‘Ñ³8¿ªØëû1J$1dd72b3f-f079-4325-8223-220bdccbcbe7
-m	java:S106"+Replace this use of System.out by a logger.(ÿåÝ¶8ü£Ïëû1J$863d3fb2-3db2-4d23-a9f3-015d630695ef
-l	java:S106"+Replace this use of System.out by a logger.(Á”§8ü£Ïëû1J$a6f6729f-c58c-43ea-875f-dafc6f2df895
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø›†Ÿúÿÿÿÿ8¿þ™íû1J$21ebed86-2f79-42b8-94b6-3f5f45ca9777
+—
+java:S2095c"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø›†Ÿúÿÿÿÿ8¿þ™íû1J$4e94eee1-dabe-448c-8cba-51d270e82097
+—
+java:S2095r"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø›†Ÿúÿÿÿÿ8ƒð¡íû1J$478a4a3d-0ed3-4cb6-81b3-eca4cf006d84
+—
+java:S2095R"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø›†Ÿúÿÿÿÿ8ÖÙ£íû1J$af44dbf2-36bc-4721-9273-d0d19160cdf3
+~	java:S125"<This block of commented-out lines of code should be removed.(½‘Ñ³8Åþ™íû1J$53a698e1-799d-4743-863a-68fa0e00bd17
+~	java:S125"<This block of commented-out lines of code should be removed.(½‘Ñ³8Åþ™íû1J$663aa9fd-76b7-4b24-a38d-7c6e1f0471e6
+~	java:S125!"<This block of commented-out lines of code should be removed.(½‘Ñ³8Åþ™íû1J$f3fe9147-22af-4412-94cb-6e0b63bb4a8e
+~	java:S125/"<This block of commented-out lines of code should be removed.(½‘Ñ³8Æþ™íû1J$6005ace6-8cd1-4ac2-87b4-221226d92dab
+r	java:S106="+Replace this use of System.out by a logger.(Äþ¾¶ûÿÿÿÿ8Êþ™íû1J$b1c521f4-72e8-4648-802b-a8acf422e585
+l	java:S106?"+Replace this use of System.out by a logger.(Á”§8âíû1J$7f096040-c8b4-4183-b9f6-1ef0d6250191
 g
-java:S6905,"Don't use the query "SELECT *".(ŽµÆìýÿÿÿÿ8Ïù·ëû1J$415bd385-ae18-4465-a3bf-c5738d02389b
-y
-java:S6437?"6Revoke and change this password, as it is compromised.(ûÁ‰™8Óù·ëû1J$04af15a4-9d11-4dc8-ba76-6386a2365da6
+java:S6905Q"Don't use the query "SELECT *".(ŽµÆìýÿÿÿÿ8Ïþ™íû1J$c706a619-39b0-46aa-92a9-c6dfe0d3deb9
+g
+java:S6905b"Don't use the query "SELECT *".(ÿþ«üÿÿÿÿ8Óþ™íû1J$268ab836-7860-436a-b025-4baa4bdd43c2
+z
+java:S6437ˆ"6Revoke and change this password, as it is compromised.(ûÁ‰™8Úþ™íû1J$555e5660-a8e0-4ef4-bb1c-e4fc1d07a93c
 n
-java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8óÆçëû1J$13a36507-0df8-4093-bf25-cbe1b24853d2
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8‹Ú£íû1J$29f79c71-fe49-4e99-a3bd-8f52787ecc2c
 ƒ
-java:S1128"ARemove this unused import 'sun.reflect.misc.ReflectUtil.forName'.(°ÚŠ98óÆçëû1J$e2e1a1d2-62e9-4a5d-9fc3-7bfc205e0400
+java:S1128"ARemove this unused import 'sun.reflect.misc.ReflectUtil.forName'.(°ÚŠ98ŒÚ£íû1J$55897c7a-2329-4306-8214-05f9151c19bc
 t
-java:S1144 "1Remove this unused private "saveCustomer" method.(ÿ¨•¶8ÔªØëû1J$87febeb7-dbf0-45e4-bfce-975bb99f404c
+java:S1144E"1Remove this unused private "saveCustomer" method.(ÿ¨•¶8Ýþ™íû1J$63cafced-850f-4771-ba55-8af8495ed8ac
+p
+java:S1144P"-Remove this unused private "findById" method.(—Ö•Ê8ó¶šíû1J$a41bc445-ba03-4466-b86c-8d9c47831193
+t
+java:S1144`",Remove this unused private "findAll" method.(ÑÕ¸áüÿÿÿÿ8Ýþ™íû1J$f95d51c1-fae8-43b6-ac98-e4aa54d759e2
+u
+java:S1144p"3Remove this unused private "updateCustomer" method.(ûûÛ8Ýþ™íû1J$b37ea102-f60d-4a79-890c-190fbf568ab6
