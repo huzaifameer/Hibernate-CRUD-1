@@ -1,13 +1,22 @@
 
 ]
-java:S1220""Move this file to a named package.8Ğàöêû1J$5738b155-c0ac-42c0-b9e9-a8ab71ebad89
+java:S1220""Move this file to a named package.8­ù·ëû1J$4e8a84a6-3476-4873-b901-e2e32ae08479
 w
-java:S1191"5Use classes from the Java API instead of Sun classes.(°ÚŠ98Ñàöêû1J$d102659e-3029-4653-adc6-681cdacd06f2
-q
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø›†Ÿúÿÿÿÿ8“•ëû1
-m	java:S106"+Replace this use of System.out by a logger.(Øë–8Şàöêû1J$32d7d58e-693f-42a9-80db-9d6aa5266a7e
-r	java:S106"+Replace this use of System.out by a logger.( ±É›ÿÿÿÿÿ8Üˆùêû1J$94f0166f-e88c-40fd-b1e7-5cf4eb73947f
+java:S1191"5Use classes from the Java API instead of Sun classes.(°ÚŠ98¯ù·ëû1J$48585a2f-7bd8-49a2-839d-2a6bea5e40de
+—
+java:S2095-"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø›†Ÿúÿÿÿÿ8¾ù·ëû1J$1dd9a28b-38f4-46bd-8023-9e4a951fd21a
+—
+java:S2095""OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø›†Ÿúÿÿÿÿ8İÆçëû1J$6288fba1-24a7-4f68-8956-d3fa5bb550b6
+~	java:S125	"<This block of commented-out lines of code should be removed.(½‘Ñ³8¿ªØëû1J$1dd72b3f-f079-4325-8223-220bdccbcbe7
+m	java:S106"+Replace this use of System.out by a logger.(ÿåİ¶8ü£Ïëû1J$863d3fb2-3db2-4d23-a9f3-015d630695ef
+l	java:S106"+Replace this use of System.out by a logger.(Á”§8ü£Ïëû1J$a6f6729f-c58c-43ea-875f-dafc6f2df895
+g
+java:S6905,"Don't use the query "SELECT *".(µÆìıÿÿÿÿ8Ïù·ëû1J$415bd385-ae18-4465-a3bf-c5738d02389b
 y
-java:S6437$"6Revoke and change this password, as it is compromised.(ûÁ‰™8äàöêû1J$b6444c08-4acc-4cdd-a235-37c3bbd69daf
-]
-java:S1128"ARemove this unused import 'sun.reflect.misc.ReflectUtil.forName'.(°ÚŠ98¦•ëû1
+java:S6437?"6Revoke and change this password, as it is compromised.(ûÁ‰™8Óù·ëû1J$04af15a4-9d11-4dc8-ba76-6386a2365da6
+n
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8óÆçëû1J$13a36507-0df8-4093-bf25-cbe1b24853d2
+ƒ
+java:S1128"ARemove this unused import 'sun.reflect.misc.ReflectUtil.forName'.(°ÚŠ98óÆçëû1J$e2e1a1d2-62e9-4a5d-9fc3-7bfc205e0400
+t
+java:S1144 "1Remove this unused private "saveCustomer" method.(ÿ¨•¶8ÔªØëû1J$87febeb7-dbf0-45e4-bfce-975bb99f404c

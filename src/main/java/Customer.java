@@ -1,15 +1,13 @@
-import java.util.Date;
-
 public class Customer {
     private long id;
     private String name;
     private String address;
     private double salary;
-    private Date dob;
+    private String dob;
 
     public Customer() {
     }
-    public Customer(long id, String name, String address, double salary, Date dob) {
+    public Customer(long id, String name, String address, double salary, String dob) {
         this.setId(id);
         this.setName(name);
         this.setAddress(address);
@@ -49,11 +47,22 @@ public class Customer {
         this.salary = salary;
     }
 
-    public Date getDob() {
+    public String getDob() {
         return dob;
     }
 
-    public void setDob(Date dob) {
+    public void setDob(String dob) {
         this.dob = dob;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", salary=" + salary +
+                ", dob='" + dob + '\'' +
+                '}';
     }
 }
