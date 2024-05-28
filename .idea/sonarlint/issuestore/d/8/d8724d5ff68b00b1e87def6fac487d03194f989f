@@ -1,0 +1,13 @@
+
+]
+java:S1220""Move this file to a named package.8Ğàöêû1J$5738b155-c0ac-42c0-b9e9-a8ab71ebad89
+w
+java:S1191"5Use classes from the Java API instead of Sun classes.(°ÚŠ98Ñàöêû1J$d102659e-3029-4653-adc6-681cdacd06f2
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø›†Ÿúÿÿÿÿ8“•ëû1
+m	java:S106"+Replace this use of System.out by a logger.(Øë–8Şàöêû1J$32d7d58e-693f-42a9-80db-9d6aa5266a7e
+r	java:S106"+Replace this use of System.out by a logger.( ±É›ÿÿÿÿÿ8Üˆùêû1J$94f0166f-e88c-40fd-b1e7-5cf4eb73947f
+y
+java:S6437$"6Revoke and change this password, as it is compromised.(ûÁ‰™8äàöêû1J$b6444c08-4acc-4cdd-a235-37c3bbd69daf
+]
+java:S1128"ARemove this unused import 'sun.reflect.misc.ReflectUtil.forName'.(°ÚŠ98¦•ëû1
