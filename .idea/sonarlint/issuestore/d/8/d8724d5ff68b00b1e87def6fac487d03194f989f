@@ -1,46 +1,46 @@
 
 ]
-java:S1220""Move this file to a named package.8ñŠıû1J$8387a6a1-a5eb-4610-b2c9-c4e601f26a03
+java:S1220""Move this file to a named package.8ñŠıû1J$a0fcee52-85e4-4fe7-8aa6-6d24617d34de
 †
-java:S2583"CChange this condition so that it does not always evaluate to "true"(œ¬ùƒ8œ‹ıû1J$176ed201-58f4-48a8-a3b0-10e9bf38de61
-m	java:S106"+Replace this use of System.out by a logger.(Øë–8±‹ıû1J$5b67f173-e828-4a71-a138-c2fb89e14171
-r	java:S106"+Replace this use of System.out by a logger.( ±É›ÿÿÿÿÿ8²‹ıû1J$b6375cdf-b8af-4a0f-a782-f91e97a29514
-~	java:S125"<This block of commented-out lines of code should be removed.(½‘Ñ³8´‹ıû1J$9e1fe170-422c-405c-a92e-4b6ad76ce561
-ƒ	java:S125&"<This block of commented-out lines of code should be removed.(Âÿ¾÷ÿÿÿÿÿ8´‹ıû1J$2b81a65d-68cd-4df0-8dc0-1faafad424dd
-~	java:S1250"<This block of commented-out lines of code should be removed.(½‘Ñ³8´‹ıû1J$44013469-c361-4dfe-91f3-5bbe646b36b4
-~	java:S125<"<This block of commented-out lines of code should be removed.(½‘Ñ³8´‹ıû1J$7f1fe371-7c7b-4d21-8c97-a545c78fbe37
+java:S2583"CChange this condition so that it does not always evaluate to "true"(œ¬ùƒ8œ‹ıû1J$010015a4-e34f-461a-a3d0-1616e4651625
+m	java:S106"+Replace this use of System.out by a logger.(Øë–8±‹ıû1J$812c94e1-9819-4ec4-84f3-f7be12320e19
+r	java:S106"+Replace this use of System.out by a logger.( ±É›ÿÿÿÿÿ8²‹ıû1J$4ebd7e29-04aa-4002-b05a-61e75a5464a1
+~	java:S125"<This block of commented-out lines of code should be removed.(½‘Ñ³8´‹ıû1J$182b08a6-e3be-4ea3-8248-7dee32a69320
+ƒ	java:S125&"<This block of commented-out lines of code should be removed.(Âÿ¾÷ÿÿÿÿÿ8´‹ıû1J$16bc3bac-df08-418d-a48c-5279a7fb51d6
+~	java:S1250"<This block of commented-out lines of code should be removed.(½‘Ñ³8´‹ıû1J$7c0d5052-7065-403b-87fa-e4f4e17bf864
+~	java:S125<"<This block of commented-out lines of code should be removed.(½‘Ñ³8´‹ıû1J$587b8224-1b0f-45ca-8ee5-4ee10033824b
 ¼
-java:S1130F"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(ÿ¨•¶8¸‹ıû1J$f4528f1a-4e84-4b3b-94ab-4e738f348393
+java:S1130F"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(ÿ¨•¶8¸‹ıû1J$fbb928ac-a35b-41aa-bd5c-2a361f5cda26
 ±
-java:S1130F"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÿ¨•¶8¸‹ıû1J$590e5303-c554-4acb-8163-7bfbaf09cd71
-~	java:S125G"<This block of commented-out lines of code should be removed.(ğá§ã8º‹ıû1J$4850cd33-95c6-4c65-943e-6e25abc91afe
+java:S1130F"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÿ¨•¶8¸‹ıû1J$c7ede536-40d7-442f-8dca-26e59207680b
+~	java:S125G"<This block of commented-out lines of code should be removed.(ğá§ã8º‹ıû1J$e2114c6d-97e6-43b0-a515-e5e52ee125f4
 ±
-java:S1130X"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(—Ö•Ê8¼‹ıû1J$c98aa15f-9213-491d-9307-e08852c2d398
+java:S1130X"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(—Ö•Ê8¼‹ıû1J$f9ec9198-947d-4ba4-ab76-733601480d1c
 ¼
-java:S1130X"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(—Ö•Ê8¼‹ıû1J$3f2c5c54-e330-40cf-88ef-d21b11f15571
-ƒ	java:S125Y"<This block of commented-out lines of code should be removed.(“Äƒãıÿÿÿÿ8¾‹ıû1J$3e2e7ad1-42bb-47ea-baa4-abb40907c9e8
-~	java:S125l"<This block of commented-out lines of code should be removed.(ğªí¾8À‹ıû1J$af8345a2-1fe5-4ae9-afb3-a1dc30b481fa
-	java:S125‚"<This block of commented-out lines of code should be removed.(¢»º8Å‹ıû1J$d97d2289-a885-40fb-97c1-a678ecd5ed1a
+java:S1130X"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(—Ö•Ê8¼‹ıû1J$97a15f24-3096-4b01-8a7a-53b67e607fdf
+ƒ	java:S125Y"<This block of commented-out lines of code should be removed.(“Äƒãıÿÿÿÿ8¾‹ıû1J$4f3f7de6-1050-4023-ad2c-5f1c6cdbe6cb
+~	java:S125l"<This block of commented-out lines of code should be removed.(ğªí¾8À‹ıû1J$f2c39654-40d4-47cd-aa3b-ccb2f6f4c9a1
+	java:S125‚"<This block of commented-out lines of code should be removed.(¢»º8Å‹ıû1J$cdffb500-33a1-4c35-b0ed-7146bde0c503
 Â
-java:S1130›"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(óĞÉùÿÿÿÿ8È‹ıû1J$349b06c4-0d9d-489f-adcc-681ecb9f4367
+java:S1130›"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(óĞÉùÿÿÿÿ8È‹ıû1J$d052f8f2-993a-4a13-b485-5a531bf63876
 ·
-java:S1130›"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(óĞÉùÿÿÿÿ8È‹ıû1J$6ab5daa6-e5f9-4ee7-83a4-7ae06de270dc
-„	java:S125œ"<This block of commented-out lines of code should be removed.(‚½‹Ûıÿÿÿÿ8È‹ıû1J$d5c517cd-3504-46f2-ab79-207cbe869d9a
+java:S1130›"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(óĞÉùÿÿÿÿ8È‹ıû1J$acc2fa2c-0d3e-460a-ae07-6f6d07e5ad4f
+„	java:S125œ"<This block of commented-out lines of code should be removed.(‚½‹Ûıÿÿÿÿ8È‹ıû1J$ec355f63-2568-40ae-9a27-8fac0cce4d19
 
-java:S1128"9Remove this unused import 'org.hibernate.SessionFactory'.(ñ¦«¬şÿÿÿÿ8Ê‹ıû1J$64d729df-cd38-4511-afd0-5efa945c9ec3
+java:S1128"9Remove this unused import 'org.hibernate.SessionFactory'.(ñ¦«¬şÿÿÿÿ8Ê‹ıû1J$a8714415-1ffa-4a50-965a-8710aae25c8b
 
-java:S1128"<Remove this unused import 'org.hibernate.cfg.Configuration'.(ö¬ä8Ê‹ıû1J$193cf389-f89f-4888-97d8-64ffd4cdbc54
+java:S1128"<Remove this unused import 'org.hibernate.cfg.Configuration'.(ö¬ä8Ê‹ıû1J$3a9bed89-dfa2-44c3-a28b-587ecb0bd62b
 ‰
-java:S1128"GRemove this unused import 'javax.persistence.criteria.CriteriaBuilder'.(É¿F8Ê‹ıû1J$598cac93-3258-4700-b7f5-d2ceee1ba574
+java:S1128"GRemove this unused import 'javax.persistence.criteria.CriteriaBuilder'.(É¿F8Ê‹ıû1J$d9bbaa4b-cf5d-4ff3-aa15-f53303882c99
 s
-java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ê‹ıû1J$59d564a9-f341-4ce1-a116-e53273e85c10
+java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ê‹ıû1J$e72b888a-b623-4523-9f4c-39f020c0d745
 o
-java:S1128",Remove this unused import 'java.util.Queue'.(Äá™ô8Ê‹ıû1J$e85ad82e-fb12-48e0-a71a-2f7ed17cc1f7
+java:S1128",Remove this unused import 'java.util.Queue'.(Äá™ô8Ê‹ıû1J$3bfe40a0-8c24-4db8-83a9-b12957f0e066
 p
-java:S1144X"-Remove this unused private "findById" method.(—Ö•Ê8Ë‹ıû1J$b1273974-f330-4641-b0fa-b919e80ef813
+java:S1144X"-Remove this unused private "findById" method.(—Ö•Ê8Ë‹ıû1J$853a47cb-5f1a-4993-aa31-7671419bffc7
 t
-java:S1144k",Remove this unused private "findAll" method.(¿ÅÙ”ıÿÿÿÿ8Ë‹ıû1J$415ae86c-edf5-4020-b58d-2be4b8becf2a
+java:S1144k",Remove this unused private "findAll" method.(¿ÅÙ”ıÿÿÿÿ8Ë‹ıû1J$b8a10e47-105a-41a6-ae28-0e10064fbc50
 w
-java:S1144"3Remove this unused private "updateCustomer" method.(—ì£‘8Ë‹ıû1J$9b2c74db-922d-4479-b9fd-099881819428
+java:S1144"3Remove this unused private "updateCustomer" method.(—ì£‘8Ë‹ıû1J$a10e66c7-3630-4f9f-9c7b-c94b48d7053a
 |
-java:S1144›"3Remove this unused private "deleteCustomer" method.(óĞÉùÿÿÿÿ8Ë‹ıû1J$44ba7552-2eae-473b-b1cb-1d4193352d02
+java:S1144›"3Remove this unused private "deleteCustomer" method.(óĞÉùÿÿÿÿ8Ë‹ıû1J$cdbbde78-104e-4652-9397-a547d3767150

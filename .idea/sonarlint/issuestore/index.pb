@@ -20,3 +20,5 @@ P
  src/main/java/HibernateUtil.java,0\e\0e9eb52914b47ef79d2e4b36053c40f0228cbbf6
 J
 src/main/java/Vehicle.java,d\e\de83edb5c38fc37905cce1343ee1e1d4c696d20f
+I
+src/main/java/Orders.java,f\4\f4deacdd1fe02fdf61b4790b7af42b1dc3d57571
