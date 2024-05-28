@@ -35,19 +35,15 @@ public class AppInitializer {
             e.printStackTrace();
         }*/
         //get all
-        /*try{
-            List<Customer> customers = findAll();
-            if (!customers.isEmpty()){
-                System.out.println("Success...");
-                for (Customer c: customers){
-                    System.out.println(c.toString());
-                }
-            }else{
-                System.out.println("Customer Doesn't exists !");
+        List<Customer> customers = findAll();
+        if (!customers.isEmpty()){
+            System.out.println("Success...");
+            for (Customer c: customers){
+                System.out.println(c.toString());
             }
-        }catch (ClassNotFoundException | SQLException e){
-            e.printStackTrace();
-        }*/
+        }else{
+            System.out.println("Customer Doesn't exists !");
+        }
         //update
         /*try{
             Customer customer = new Customer(1001,"Nimal Siripala","Kalutara",120000,"1988-12-21");
@@ -61,7 +57,7 @@ public class AppInitializer {
             e.printStackTrace();
         }*/
         //delete by id
-        try{
+        /*try{
             if (deleteCustomer(1001)){
                 System.out.println("Deletion Success.......!");
             }else{
@@ -69,7 +65,7 @@ public class AppInitializer {
             }
         }catch (ClassNotFoundException | SQLException e){
             e.printStackTrace();
-        }
+        }*/
     }
     private static boolean saveCustomer(Customer customer) throws ClassNotFoundException,SQLException{
         /*String sql = "INSERT INTO customer (id, name, address, salary, dob) VALUES (?, ?, ?, ?, ?)";
@@ -81,15 +77,12 @@ public class AppInitializer {
         preparedStatement.setString(5,customer.getDob());
 
         return preparedStatement.executeUpdate()>0;*/
-        Configuration configuration = new Configuration().configure("hibernate.cfg.xml")
-                .addAnnotatedClass(Customer.class);
-        SessionFactory sessionFactory = configuration.buildSessionFactory();
-        Session session = sessionFactory.openSession();
-        Transaction transaction = session.beginTransaction();
-        session.save(customer);
-        transaction.commit();
-        session.close();
-        sessionFactory.close();
+
+        try(Session session = new HibernateUtil().openSession()){
+            Transaction transaction = session.beginTransaction();
+            session.save(customer);
+            transaction.commit();
+        }
         return true;
     }
     private static Customer findById(long id) throws SQLException, ClassNotFoundException {
@@ -107,16 +100,11 @@ public class AppInitializer {
             return new Customer(customerId, name, address, salary, dob);
         }
         return null;*/
-        Configuration configuration = new Configuration().configure("hibernate.cfg.xml")
-                .addAnnotatedClass(Customer.class);
-        SessionFactory sessionFactory = configuration.buildSessionFactory();
-        Session session = sessionFactory.openSession();
-        Customer customer = session.get(Customer.class, id);
-        session.close();
-        sessionFactory.close();
-        return customer;
+        try(Session session = new HibernateUtil().openSession()){
+            return session.get(Customer.class, id);
+        }
     }
-    private static List<Customer> findAll() throws SQLException, ClassNotFoundException {
+    private static List<Customer> findAll(){
         /*List<Customer> customerList = new ArrayList<>();
         String sql = "SELECT * FROM customer";
         PreparedStatement preparedStatement = getConnection().prepareStatement(sql);
@@ -131,15 +119,14 @@ public class AppInitializer {
             customerList.add(new Customer(customerId, name, address, salary, dob));
         }
         return customerList;*/
-        Configuration configuration = new Configuration().configure("hibernate.cfg.xml")
-                .addAnnotatedClass(Customer.class);
-        SessionFactory sessionFactory = configuration.buildSessionFactory();
-        Session session = sessionFactory.openSession();
-        String hql = "FROM Customer";
-        Query<Customer> query = session.createQuery(hql, Customer.class);
-        return query.list();
+        try(Session session = new HibernateUtil().openSession()){
+            String hql = "FROM Customer";
+            Query<Customer> query = session.createQuery(hql, Customer.class);
+            return query.list();
+        }
+
     }
-    private static boolean updateCustomer(Customer customer) throws ClassNotFoundException,SQLException{
+    private static boolean updateCustomer(Customer customer){
         /*String sql = "UPDATE customer SET name=?, address=?, salary=?, dob=? WHERE id=?";
         PreparedStatement preparedStatement = getConnection().prepareStatement(sql);
         preparedStatement.setString(1,customer.getName());
@@ -150,23 +137,19 @@ public class AppInitializer {
 
 
         return preparedStatement.executeUpdate()>0;*/
-        Configuration configuration = new Configuration().configure("hibernate.cfg.xml")
-                .addAnnotatedClass(Customer.class);
-        SessionFactory sessionFactory = configuration.buildSessionFactory();
-        Session session = sessionFactory.openSession();
-        Transaction transaction = session.beginTransaction();
-        Customer selectedCustomer = session.get(Customer.class,customer.getId());
-        if (selectedCustomer==null){
-            return false;
+        try(Session session = new HibernateUtil().openSession()){
+            Transaction transaction = session.beginTransaction();
+            Customer selectedCustomer = session.get(Customer.class,customer.getId());
+            if (selectedCustomer==null){
+                return false;
+            }
+            selectedCustomer.setName(customer.getName());
+            selectedCustomer.setAddress(customer.getAddress());
+            selectedCustomer.setSalary(customer.getSalary());
+            selectedCustomer.setDob(customer.getDob());
+            transaction.commit();
+            return true;
         }
-        selectedCustomer.setName(customer.getName());
-        selectedCustomer.setAddress(customer.getAddress());
-        selectedCustomer.setSalary(customer.getSalary());
-        selectedCustomer.setDob(customer.getDob());
-        transaction.commit();
-        session.close();
-        sessionFactory.close();
-        return true;
     }
 
     private static boolean deleteCustomer(long customerId) throws ClassNotFoundException,SQLException{
@@ -174,26 +157,15 @@ public class AppInitializer {
         PreparedStatement preparedStatement = getConnection().prepareStatement(sql);
         preparedStatement.setLong(1,customerId);
         return preparedStatement.executeUpdate()>0;*/
-        Configuration configuration = new Configuration().configure("hibernate.cfg.xml")
-                .addAnnotatedClass(Customer.class);
-        SessionFactory sessionFactory = configuration.buildSessionFactory();
-        Session session = sessionFactory.openSession();
-        Transaction transaction = session.beginTransaction();
-        Customer selectedCustomer = session.get(Customer.class,customerId);
-        if (selectedCustomer==null){
-            return false;
+        try(Session session = new HibernateUtil().openSession()){
+            Transaction transaction = session.beginTransaction();
+            Customer selectedCustomer = session.get(Customer.class,customerId);
+            if (selectedCustomer==null){
+                return false;
+            }
+            session.delete(selectedCustomer);
+            transaction.commit();
+            return true;
         }
-        session.delete(selectedCustomer);
-        transaction.commit();
-        session.close();
-        sessionFactory.close();
-        return true;
-    }
-
-    private static Connection getConnection() throws ClassNotFoundException,SQLException{
-        //loading the driver
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        //creating the connection
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/hibernate_db","root","1234");
     }
 }
