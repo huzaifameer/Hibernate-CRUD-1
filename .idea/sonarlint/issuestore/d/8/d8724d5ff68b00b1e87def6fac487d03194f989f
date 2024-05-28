@@ -4,11 +4,11 @@ java:S1192T"RDefine a constant instead of duplicating this literal "hibernate.c
 ]
 java:S1220""Move this file to a named package.8ã¬¦óû1J$6def262f-4a5d-400f-b02b-de00778efb51
 Ž
-java:S2095´"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿ8ü¬¦óû1J$9e935105-7823-432f-a64a-a9bf1c7f7b50
-Ž
 java:S2095œ"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿ8ü¬¦óû1J$5e45b334-a0b7-46fd-8362-b4c45e523dc1
 Ž
 java:S2095‰"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿ8ûÈ»óû1J$76b64105-2e1d-44e0-8d5b-2986749877c7
+Ž
+java:S2095´"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿ8ü¬¦óû1J$9e935105-7823-432f-a64a-a9bf1c7f7b50
 ~	java:S125"<This block of commented-out lines of code should be removed.(½‘Ñ³8„­¦óû1J$5798a47a-17dd-40f9-a315-1daed529408d
 ~	java:S125"<This block of commented-out lines of code should be removed.(½‘Ñ³8…­¦óû1J$581d9363-44c1-43ce-a36a-04082e68b7c5
 ~	java:S125&"<This block of commented-out lines of code should be removed.(½‘Ñ³8…­¦óû1J$af0343c3-7bcd-4659-bc54-bcb482ca146a
